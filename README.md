@@ -1,16 +1,64 @@
-# React + Vite
+# Meals Listing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that displays a curated list of meals with detailed information including instructions, categories, and tags. Built with Vite for fast development and modern React features.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Browse a collection of meals with images
+- View meal details including category, area, and tags
+- Read detailed cooking instructions in a scrollable section
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React
+- **Build Tool**: Vite
+- **Styling**: CSS with modern gradients and layouts
+- **Package Manager**: pnpm
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd mealsListing
+   ```
+
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
+
+## Usage
+
+Start the development server:
+
+```bash
+pnpm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+## Build for Production
+
+```bash
+pnpm run build
+```
+
+Preview the production build:
+
+```bash
+pnpm run preview
+```
+
+## API
+
+This app uses [TheMealDB API](https://www.themealdb.com/api.php) to fetch meal data.
+
+## Contributing
+
+Feel free to submit issues and pull requests.
+
+## License
+
+This project is private as part of assignments
