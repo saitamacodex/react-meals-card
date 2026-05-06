@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #010520 0%, #16213e 100%);
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-container {
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
+.app-headers {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#meal-cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.meal-card {
+  background-color: #0c062a;
+  width: 420px;
+  border: 1px solid #e3ef60;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 500px;
+  overflow-y: auto;
+  /* align-items: stretch; */
+}
+
+.meal-card p {
+  text-align: justify;
+}
+
+#meal-thumbnail img {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+#meal-thumbnail figure {
+  /* border: 1px solid #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
