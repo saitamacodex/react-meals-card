@@ -18,7 +18,7 @@ function Meal(props) {
             <strong>Meal type:</strong>{" "}
             {meals.strCategory + ", " + meals.strArea}{" "}
           </p>
-          <p>
+          <p className="meal-instructions">
             <strong>Instructions:</strong> {meals.strInstructions}
           </p>
           {meals.strTags && (
