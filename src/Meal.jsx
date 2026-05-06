@@ -13,10 +13,19 @@ function Meal(props) {
         </div>
         <div id="meal-info">
           <h3>{meals.strMeal}</h3>
-          <hr />
-          <p>Meal type: {meals.strCategory + ", " + meals.strArea} </p>
-          <p>{meals.strInstructions}</p>
-          <p>{meals.strTags}</p>
+          <span className="title-line"></span>
+          <p>
+            <strong>Meal type:</strong>{" "}
+            {meals.strCategory + ", " + meals.strArea}{" "}
+          </p>
+          <p>
+            <strong>Instructions:</strong> {meals.strInstructions}
+          </p>
+          {meals.strTags && (
+            <p>
+              <strong>Tags:</strong> {meals.strTags}
+            </p>
+          )}
         </div>
       </article>
     </section>
