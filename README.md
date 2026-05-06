@@ -53,7 +53,7 @@ pnpm run preview
 
 ## API
 
-This app uses [TheMealDB API](https://www.themealdb.com/api.php) to fetch meal data.
+This app uses [TheMealDB API](https://api.freeapi.app/api/v1/public/meals) to fetch meal data.
 
 ## Contributing
 
