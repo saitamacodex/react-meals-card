@@ -2,6 +2,8 @@
 
 A React application that displays a curated list of meals with detailed information including instructions, categories, and tags. Built with Vite for fast development and modern React features.
 
+## Live : https://react-meals-card.vercel.app/
+
 ## Features
 
 - Browse a collection of meals with images
